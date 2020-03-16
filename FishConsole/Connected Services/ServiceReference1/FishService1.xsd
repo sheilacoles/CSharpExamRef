@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/JokeWebService.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/JokeWebService.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfFish">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Fish" nillable="true" type="tns:Fish" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFish" nillable="true" type="tns:ArrayOfFish" />
+  <xs:complexType name="Fish">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Fish" nillable="true" type="tns:Fish" />
+</xs:schema>

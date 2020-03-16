@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5765f11d-5f68-4a9a-b13e-78825268235e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61676/FishService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FishService.wsdl" MetadataType="Wsdl" ID="000e7f38-e346-41f8-b01d-083b38411de8" SourceId="1" SourceUrl="http://localhost:61676/FishService.svc?wsdl" />
+    <MetadataFile FileName="FishService.disco" MetadataType="Disco" ID="1b17e62c-d657-4d3e-ab58-c9bc899c5faf" SourceId="1" SourceUrl="http://localhost:61676/FishService.svc?disco" />
+    <MetadataFile FileName="FishService.xsd" MetadataType="Schema" ID="45231af5-d15f-4381-82ef-062300f6c87b" SourceId="1" SourceUrl="http://localhost:61676/FishService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FishService1.xsd" MetadataType="Schema" ID="a9b66d0b-5714-4150-9e67-f192dfb649d7" SourceId="1" SourceUrl="http://localhost:61676/FishService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FishService2.xsd" MetadataType="Schema" ID="2be6a043-3bcb-4323-a070-0f8685033628" SourceId="1" SourceUrl="http://localhost:61676/FishService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
